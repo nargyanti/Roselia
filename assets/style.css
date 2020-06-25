@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+.jumbotron img {
+    width: 30%;
+    margin: 20px;
+}
+
+nav {
+    background-color: #3344AA;
+    padding: 1px;
+    font-size: 18px;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+nav a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DDDDFF;
+}
+
+a {
+    text-decoration: none;
+    color: #DD0088;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#content {
+    padding: 10px 50px;
+}
+
+.flex-row {
+    display: flex;
+}
+
+#descriptions {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+#descriptions img {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    width: 50%;
+    float: left;
+}
+
+#descriptions p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+#members {
+    text-align: center;
+    flex-basis: 70%;
+    padding: 0 20px;
+}
+
+#members img {
+    height: 160px;
+}
+
+.card {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 1);
+	border-radius: 5px;
+    padding: 5px;
+    margin: 20px 30px 0 0;
+    color: #3344AA;
+    background-color: white;
+    width: 170px;
+    height: 250px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 8px 8px rgba(51, 68, 170, 1);
+}
+
+#songs {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+#songs iframe {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 520px;
+    width: 300px;
+}
+
+footer {
+    padding: 20px;
+	color: white;
+	background-color: #3344AA;
+	text-align: center;
+	font-weight: bold;
+}
+
+aside {
+    margin: 40px 120px;
+    border-width: 20px 0px;
+    border-color: #3344AA;
+    border-style: double;
+    text-align: center;
+    display: inline-block;
+    padding: 0 40px;
+}
+
+aside img {
+    max-width: 170px;
+    padding-right: 20px;
+    float: left;
+    margin: 20px;
+}
+
+aside h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+aside p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 996px) {
+    #descriptions {
+        margin-bottom: 0px;
+    }
+
+    #descriptions img {
+        width: 60%;
+        display: block;
+        float: none;
+    }
+
+    .flex-row {
+        display: inherit;
+    }
+
+    #members h2 {
+        margin-bottom: 0;
+    }
+
+    .card {
+        margin-right: 20px;
+        margin-top: 40px;
+    }
+
+    #members {
+        margin-bottom: 20px;
+    }
+
+    #songs {
+        margin-top: 40px;
+    }
+
+    #songs iframe {
+        height: 380px;
+    }
+
+    aside img {
+        float: none;
+        display: block;
+        width: 220px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    aside h2 {
+        margin: 0;
+    } 
+}
+
+@media screen and (max-width: 524px) {
+    #songs iframe {
+        height: 80px;
+        width: inherit;
+    }
+
+    .card {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    aside {
+        margin: 20px 40px;
+    }
+    
+}
