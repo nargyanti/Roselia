@@ -1,2 +1,2 @@
 # Submission Belajar Dasar Pemrograman Web
-Submission Belajar Dasar Pemrograman Web di Dicoding
+Project submission Belajar Dasar Pemrograman Web di Dicoding
