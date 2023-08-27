@@ -18,9 +18,9 @@ This project is the result of the submission for the [Belajar Dasar Pemrograman 
 
 1. Clone this repository to your local directory.
 
-```bash
-git clone https://github.com/nargyanti/Roselia.git
-```
+    ```bash
+    git clone https://github.com/nargyanti/Roselia.git
+    ```
 
 2. Open the `index.html` file using your preferred web browser.
 3. You can explore different sections of the page to understand more about Roselia.
